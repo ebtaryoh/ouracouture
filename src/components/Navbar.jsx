@@ -77,9 +77,9 @@ export function Navbar({
               onClick={(e) => { e.preventDefault(); setActiveFilter('all'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
               className="flex items-center gap-2 group text-left"
             >
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#d4af37] via-[#c5a059] to-[#8a6a2a] p-0.5 shadow-lg shadow-[#0a2f20]/40 flex items-center justify-center group-hover:scale-105 transition-transform">
+              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#d4af37] via-[#c5a059] to-[#8a6a2a] p-0.5 shadow-lg shadow-[#d4af37]/30 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <div className="w-full h-full rounded-full bg-[#091f16] flex items-center justify-center">
-                  <Crown className="w-5 h-5 text-[#d4af37]" />
+                  <Crown className="w-5 h-5 text-[#d4af37] group-hover:rotate-12 transition-transform duration-300 animate-glow" />
                 </div>
               </div>
               <div className="flex flex-col">

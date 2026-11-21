@@ -38,7 +38,7 @@ export function ProductCard({
 
   return (
     <div 
-      className="group relative flex flex-col bg-[#091a13] rounded-2xl overflow-hidden border border-[#1b3d2c] hover:border-[#d4af37]/70 transition-all duration-300 hover:shadow-2xl hover:shadow-[#051a11]/80 cursor-pointer"
+      className="group relative flex flex-col bg-[#091a13] rounded-2xl overflow-hidden border border-[#1b3d2c] hover:border-[#d4af37]/70 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#d4af37]/20 cursor-pointer"
       onClick={() => onQuickView(product)}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -49,16 +49,16 @@ export function ProductCard({
           src={currentImage}
           alt={product.title}
           loading="lazy"
-          className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
+          className="w-full h-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-110"
         />
 
         {/* Gradient Scrim */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#091a13] via-transparent to-black/20 opacity-60 group-hover:opacity-40 transition-opacity" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#091a13] via-transparent to-black/20 opacity-60 group-hover:opacity-30 transition-opacity duration-500" />
 
         {/* Top Badges */}
         <div className="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
           {product.badge && (
-            <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-bold tracking-wide uppercase bg-[#091b13]/90 text-[#f3e5ab] border border-[#d4af37]/60 backdrop-blur-md shadow-md">
+            <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-bold tracking-wide uppercase bg-[#091b13]/90 text-[#f3e5ab] border border-[#d4af37]/60 backdrop-blur-md shadow-md animate-glow">
               {product.badge}
             </span>
           )}

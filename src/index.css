@@ -22,16 +22,16 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #0f1715;
+  background: #06140e;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #234e3e;
+  background: #174431;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #c5a059;
+  background: #d4af37;
 }
 
 /* Animations */
@@ -43,34 +43,96 @@
 .animate-marquee {
   display: flex;
   width: 200%;
-  animation: marquee 28s linear infinite;
+  animation: marquee 24s linear infinite;
 }
 
 .animate-marquee:hover {
   animation-play-state: paused;
 }
 
+@keyframes marqueeReverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
+}
+
+.animate-marquee-reverse {
+  display: flex;
+  width: 200%;
+  animation: marqueeReverse 28s linear infinite;
+}
+
+.animate-marquee-reverse:hover {
+  animation-play-state: paused;
+}
+
+/* Ken Burns dynamic slow pan and zoom for hero images */
+@keyframes kenBurns {
+  0% { transform: scale(1) translate(0, 0); }
+  50% { transform: scale(1.08) translate(-1%, -1%); }
+  100% { transform: scale(1) translate(0, 0); }
+}
+
+.animate-kenburns {
+  animation: kenBurns 18s ease-in-out infinite alternate;
+}
+
+/* Gentle subtle float */
 @keyframes floatSlow {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-8px); }
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-7px) rotate(0.5deg); }
 }
 
 .animate-float {
-  animation: floatSlow 5s ease-in-out infinite;
+  animation: floatSlow 4.5s ease-in-out infinite;
 }
 
+/* Glowing gold pulse */
 @keyframes pulseGlow {
-  0%, 100% { opacity: 0.6; transform: scale(1); }
-  50% { opacity: 1; transform: scale(1.04); }
+  0%, 100% { opacity: 0.55; transform: scale(1); filter: drop-shadow(0 0 4px rgba(212, 175, 55, 0.4)); }
+  50% { opacity: 1; transform: scale(1.03); filter: drop-shadow(0 0 12px rgba(212, 175, 55, 0.8)); }
 }
 
 .animate-glow {
-  animation: pulseGlow 3s ease-in-out infinite;
+  animation: pulseGlow 2.8s ease-in-out infinite;
 }
 
-/* Gold Shimmer Effect */
+/* Shimmer Light Bar sweep */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, rgba(212,175,55,0) 0%, rgba(255,242,178,0.4) 50%, rgba(212,175,55,0) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 3s infinite;
+}
+
+/* Gold Shimmer Text Effect */
 .gold-shimmer {
-  background: linear-gradient(90deg, #d4af37 0%, #fff2b2 50%, #c5a059 100%);
+  background: linear-gradient(90deg, #d4af37 0%, #fff4be 50%, #c5a059 100%);
+  background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: shimmer 4s linear infinite;
+}
+
+/* Slide in from bottom-left */
+@keyframes slideUpFade {
+  0% { opacity: 0; transform: translateY(20px) scale(0.96); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.animate-slide-up {
+  animation: slideUpFade 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Rotating crest */
+@keyframes spinSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 30s linear infinite;
 }

@@ -8,7 +8,7 @@ export function EditorialSection({ onExploreCollection }) {
   return (
     <section className="w-full py-16 bg-[#071610] border-b border-[#1b3d2b] relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4 text-left">
           <div>

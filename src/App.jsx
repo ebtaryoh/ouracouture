@@ -13,6 +13,7 @@ import { EditorialSection } from './components/EditorialSection';
 import { LookbookGallery } from './components/LookbookGallery';
 import { ReviewsSection } from './components/ReviewsSection';
 import { WhatsAppConcierge } from './components/WhatsAppConcierge';
+import { LiveSalesNotification } from './components/LiveSalesNotification';
 import { Footer } from './components/Footer';
 import { PRODUCTS, CURRENCIES, FAQ_LIST } from './data/fashionData';
 import { Sparkles, Scissors, Crown, ChevronDown, ChevronUp, ArrowRight, ShieldCheck, Truck, RefreshCw } from 'lucide-react';
@@ -344,8 +345,9 @@ export default function App() {
         onOpenBespoke={() => setBespokeOpen(true)}
       />
 
-      {/* 11. FLOATING WHATSAPP STYLIST CONCIERGE */}
+      {/* 11. FLOATING WHATSAPP STYLIST CONCIERGE & LIVE MOVING RECENT ACTIVITY TOAST */}
       <WhatsAppConcierge />
+      <LiveSalesNotification />
 
       {/* 12. PRODUCT DETAIL MODAL (PDP) */}
       {selectedProduct && (

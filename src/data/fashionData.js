@@ -60,7 +60,7 @@ export const ATELIERS = [
 ];
 
 export const PRODUCTS = [
-  // MEN'S LUXURY COUTURE
+  // MEN'S LUXURY NIGERIAN COUTURE (AUTHENTIC BLACK NIGERIAN GENTLEMEN)
   {
     id: 'men-agbada-emerald',
     title: 'The Ooni Royal Hand-Embroidered 3-Piece Agbada Set',
@@ -75,9 +75,9 @@ export const PRODUCTS = [
     isBestseller: true,
     isHotSale: true,
     images: [
+      'https://images.unsplash.com/photo-1596704017254-9b121068fb31?w=1000&auto=format&fit=crop&q=85',
       'https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=1000&auto=format&fit=crop&q=85',
       'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=1000&auto=format&fit=crop&q=85',
     ],
     colors: [
       { name: 'Royal Emerald & Gold', hex: '#0f3c2b' },
@@ -112,8 +112,8 @@ export const PRODUCTS = [
     isHotSale: false,
     images: [
       'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1531384441138-2736e62e0919?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=1000&auto=format&fit=crop&q=85',
     ],
     colors: [
       { name: 'Midnight Obsidian', hex: '#131b23' },
@@ -147,8 +147,9 @@ export const PRODUCTS = [
     isBestseller: false,
     isHotSale: true,
     images: [
-      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1596704017254-9b121068fb31?w=1000&auto=format&fit=crop&q=85',
     ],
     colors: [
       { name: 'Imperial Wine', hex: '#581825' },
@@ -181,7 +182,7 @@ export const PRODUCTS = [
     isHotSale: false,
     images: [
       'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1000&auto=format&fit=crop&q=85',
       'https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=1000&auto=format&fit=crop&q=85',
     ],
     colors: [
@@ -214,7 +215,8 @@ export const PRODUCTS = [
     isHotSale: false,
     images: [
       'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1596704017254-9b121068fb31?w=1000&auto=format&fit=crop&q=85',
     ],
     colors: [
       { name: 'Royal Purple & Silver', hex: '#4c1d95' },
@@ -245,7 +247,8 @@ export const PRODUCTS = [
     isBestseller: false,
     isHotSale: true,
     images: [
-      'https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=1000&auto=format&fit=crop&q=85',
       'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1000&auto=format&fit=crop&q=85',
     ],
     colors: [
@@ -263,7 +266,7 @@ export const PRODUCTS = [
     ]
   },
 
-  // WOMEN'S LUXURY COUTURE
+  // WOMEN'S LUXURY NIGERIAN COUTURE (AUTHENTIC BLACK NIGERIAN WOMEN)
   {
     id: 'women-champagne-mermaid',
     title: 'Tiwa Champagne Hand-Beaded French Lace Mermaid Gown',
@@ -278,10 +281,9 @@ export const PRODUCTS = [
     isBestseller: true,
     isHotSale: true,
     images: [
-      'https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1589156280159-27698a70f29e?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=1000&auto=format&fit=crop&q=85',
     ],
     colors: [
       { name: 'Champagne Gold & Black Lace', hex: '#e3d2b4' },
@@ -292,7 +294,7 @@ export const PRODUCTS = [
     fabric: 'Imported French Guipure Lace with Hand-Seaded Swarovski Crystals & Duchess Satin',
     occasion: 'Owanbe Reception, Red Carpet, Black Tie Gala, Bridal Afterparty',
     leadTime: 'Tailored to measure: 5-7 days. Express dispatch ready sizes: 24h.',
-    description: 'The pinnacle of Nigerian luxury event couture. Designed to hug your curves with internal boning that snatches the waist while cascading into a dramatic cathedral-length mermaid train.',
+    description: 'The pinnacle of Nigerian luxury event couture. Designed to hug curves with internal boning that snatches the waist while cascading into a dramatic cathedral-length mermaid train.',
     details: [
       'Built-in internal corset with multi-point steel spiral boning for hourglass silhouette',
       'Hand-embroidered with thousands of micro-crystals and bugle beads',
@@ -314,9 +316,9 @@ export const PRODUCTS = [
     isBestseller: true,
     isHotSale: true,
     images: [
-      'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1550614000-4895a10e1bfd?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1000&auto=format&fit=crop&q=85',
     ],
     colors: [
       { name: 'Amber Rust Orange', hex: '#c25e1a' },
@@ -331,7 +333,7 @@ export const PRODUCTS = [
     details: [
       'Draped portrait cowl neckline that frames face and jewelry beautifully',
       'Concealed back zipper with safety hook and eye',
-      'Hidden interior pockets (yes, functional pockets!)',
+      'Hidden interior pockets (functional pockets!)',
       'Floor-sweeping A-line hem that moves like liquid mercury'
     ]
   },
@@ -349,9 +351,9 @@ export const PRODUCTS = [
     isBestseller: false,
     isHotSale: false,
     images: [
-      'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1000&auto=format&fit=crop&q=85',
     ],
     colors: [
       { name: 'Deep Emerald Royalty', hex: '#073e2d' },
@@ -361,7 +363,7 @@ export const PRODUCTS = [
     fabric: 'Austrian Heavy Guipure Lace with Beaded Emerald Pearls & Illusion Mesh',
     occasion: 'Bride Traditional Wedding, Chief Bridesmaid, High-Table Guest',
     leadTime: 'Atelier tailoring: 6-8 days.',
-    description: 'Nothing commands the room at a Nigerian wedding like deep emerald and gold. Built with a signature snatched waistline, hand-appliquéd floral lace motifs, and optional matching auto-gele.',
+    description: 'Nothing commands the room at a Nigerian wedding like deep emerald and gold. Built with a signature snatched waistline, hand-appliquéd floral lace motifs, and matching auto-gele option.',
     details: [
       'Exposed boned sheer illusion bodice with strategically placed appliques',
       'Flared trumpet skirt with stiff horsehair hemline for dramatic volume',
@@ -383,9 +385,9 @@ export const PRODUCTS = [
     isBestseller: true,
     isHotSale: true,
     images: [
-      'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1589156280159-27698a70f29e?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=1000&auto=format&fit=crop&q=85',
     ],
     colors: [
       { name: 'Coral Terracotta', hex: '#c05621' },
@@ -418,9 +420,9 @@ export const PRODUCTS = [
     isBestseller: false,
     isHotSale: false,
     images: [
-      'https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1589156280159-27698a70f29e?w=1000&auto=format&fit=crop&q=85',
     ],
     colors: [
       { name: 'Kano Indigo & Gold Wax', hex: '#1e3a8a' },
@@ -450,9 +452,9 @@ export const PRODUCTS = [
     isBestseller: true,
     isHotSale: false,
     images: [
-      'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1589156280159-27698a70f29e?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=1000&auto=format&fit=crop&q=85',
     ],
     colors: [
       { name: 'Champagne Rose & Silver Weave', hex: '#d8b4a0' },
@@ -471,7 +473,7 @@ export const PRODUCTS = [
     ]
   },
 
-  // COUPLE & OWANBE MATCHING SETS
+  // COUPLE & OWANBE MATCHING SETS (BLACK NIGERIAN BRIDE & GROOM)
   {
     id: 'couple-coronation-emerald',
     title: 'The Coronation Couple: Royal Emerald & Gold Matching Set',
@@ -486,9 +488,9 @@ export const PRODUCTS = [
     isBestseller: true,
     isHotSale: true,
     images: [
-      'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1523824921871-d6f1a15151f1?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1596704017254-9b121068fb31?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1000&auto=format&fit=crop&q=85',
     ],
     colors: [
       { name: 'Royal Emerald & Gold', hex: '#0f3c2b' },
@@ -520,9 +522,9 @@ export const PRODUCTS = [
     isBestseller: false,
     isHotSale: false,
     images: [
-      'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=1000&auto=format&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1523824921871-d6f1a15151f1?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=1000&auto=format&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=1000&auto=format&fit=crop&q=85',
     ],
     colors: [
       { name: 'Monarchy Wine & Champagne', hex: '#5b1527' },
@@ -543,7 +545,7 @@ export const PRODUCTS = [
 export const TESTIMONIALS = [
   {
     id: 'rev-1',
-    name: 'Dr. Babatunde Alabi, CON',
+    name: 'Chief Babatunde Alabi, CON',
     title: 'Senior Partner, Lagos & London',
     location: 'Victoria Island, Lagos',
     rating: 5,
@@ -560,7 +562,7 @@ export const TESTIMONIALS = [
     location: 'Ikoyi, Lagos & Mayfair, London',
     rating: 5,
     date: '1 week ago',
-    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80',
+    avatar: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=200&auto=format&fit=crop&q=80',
     verified: true,
     outfit: 'Tiwa Champagne Beaded Lace Mermaid Gown',
     text: 'The internal corsetry in this gown gave me an unbelievable 24-inch waist while still letting me dance the entire night to Asake and Burna Boy! Delivered to my Lekki home in 3 days. Àríyá Couture is in a league of its own.'
@@ -572,7 +574,7 @@ export const TESTIMONIALS = [
     location: 'Houston, Texas (Diaspora Order)',
     rating: 5,
     date: 'Last month',
-    avatar: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=200&auto=format&fit=crop&q=80',
+    avatar: 'https://images.unsplash.com/photo-1523824921871-d6f1a15151f1?w=200&auto=format&fit=crop&q=80',
     verified: true,
     outfit: 'The Coronation Couple Matching Emerald Set',
     text: 'Ordering from the US, we were nervous about measurements, but their virtual tailor appointment was so thorough! The package arrived via DHL Express in Texas 6 days later. Every guest at our wedding was blown away.'
@@ -584,7 +586,7 @@ export const TESTIMONIALS = [
     location: 'Maitama, Abuja',
     rating: 5,
     date: '2 weeks ago',
-    avatar: 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=200&auto=format&fit=crop&q=80',
+    avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&auto=format&fit=crop&q=80',
     verified: true,
     outfit: 'Moremi Cowl-Neck Amber Velvet Maxi Gown',
     text: 'Liquid gold. The amber velvet texture feels incredible against the skin, and having hidden pockets in an evening gown is pure genius. 10/10 craftsmanship.'
@@ -596,7 +598,7 @@ export const LOOKBOOK_STORIES = [
     id: 'look-1',
     title: 'The Lagos Monarchy Edit',
     subtitle: 'Where Royal Tradition Meets 21st Century Savile Row Polish',
-    image: 'https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=1000&auto=format&fit=crop&q=85',
+    image: 'https://images.unsplash.com/photo-1596704017254-9b121068fb31?w=1000&auto=format&fit=crop&q=85',
     tag: 'Haute Menswear',
     reads: '5 min read',
     summary: 'A deep dive into how our master artisans in Victoria Island spend 48 man-hours hand-couching gold bullion motifs into heavy Swiss voile Agbada.'
@@ -605,7 +607,7 @@ export const LOOKBOOK_STORIES = [
     id: 'look-2',
     title: 'Owanbe Glitz: The Corset Revolution',
     subtitle: 'Engineering the Perfect Snatched Silhouette for Nigerian Weddings',
-    image: 'https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=1000&auto=format&fit=crop&q=85',
+    image: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1000&auto=format&fit=crop&q=85',
     tag: 'Bridal & Red Carpet',
     reads: '4 min read',
     summary: 'Discover how French Chantilly lace, crystal beading, and structural spiral steel boning combine to create gowns that dance effortlessly.'
@@ -614,7 +616,7 @@ export const LOOKBOOK_STORIES = [
     id: 'look-3',
     title: 'Reviving Ancient Aso-Oke Looms',
     subtitle: 'Preserving Centuries-Old Yoruba Weaving Techniques for Global Runways',
-    image: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=1000&auto=format&fit=crop&q=85',
+    image: 'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=1000&auto=format&fit=crop&q=85',
     tag: 'Cultural Heritage',
     reads: '6 min read',
     summary: 'From Iseyin weavers to the streets of Ikoyi: how our sustainable hand-spun cotton and silk preservation project empowers over 80 female loom artisans.'
@@ -639,4 +641,3 @@ export const FAQ_LIST = [
     a: 'If any bespoke garment needs minor adjustments, our Lagos and Abuja ateliers will alter it completely free of charge within 14 days of receipt, or arrange a complimentary pickup and return.'
   }
 ];
-
