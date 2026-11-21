@@ -77,7 +77,7 @@ export default function App() {
     // Search query filter
     if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase();
-      result = result.filter(p => 
+      result = result.filter(p =>
         p.title.toLowerCase().includes(query) ||
         p.subtitle?.toLowerCase().includes(query) ||
         p.category?.toLowerCase().includes(query) ||
@@ -153,7 +153,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#06140e] text-[#e6ede9] flex flex-col font-sans selection:bg-[#d4af37] selection:text-[#06140e]">
-      
+
       {/* 1. STICKY LUXURY NAVIGATION */}
       <Navbar
         cartCount={cartItems.reduce((sum, i) => sum + i.quantity, 0)}
@@ -185,7 +185,7 @@ export default function App() {
 
       {/* 4. MAIN BOUTIQUE CATALOG */}
       <main id="boutique-catalog" className="w-full flex-1">
-        
+
         {/* Collection Filter Bar */}
         <CollectionFilter
           activeFilter={activeFilter}
@@ -274,7 +274,7 @@ export default function App() {
         </div>
 
         {/* 6. LOOKBOOK RUNWAY GALLERY */}
-        <LookbookGallery 
+        <LookbookGallery
           onFilterByGender={(g) => {
             setActiveFilter(g);
             const el = document.getElementById('boutique-catalog');
@@ -283,7 +283,7 @@ export default function App() {
         />
 
         {/* 7. EDITORIAL JOURNAL SECTION */}
-        <EditorialSection 
+        <EditorialSection
           onExploreCollection={() => {
             setActiveFilter('all');
             const el = document.getElementById('boutique-catalog');
@@ -308,7 +308,7 @@ export default function App() {
 
             <div className="space-y-3">
               {FAQ_LIST.map((faq, idx) => (
-                <div 
+                <div
                   key={idx}
                   className="rounded-xl border border-[#1b3f2d] bg-[#091f16] overflow-hidden"
                 >
@@ -337,7 +337,7 @@ export default function App() {
       </main>
 
       {/* 10. LUXURY FOOTER (WITH NEWSLETTER & COLLAPSIBLE MOBILE ACCORDIONS) */}
-      <Footer 
+      <Footer
         onFilterCategory={(cat) => {
           setActiveFilter(cat);
           window.scrollTo({ top: 0, behavior: 'smooth' });

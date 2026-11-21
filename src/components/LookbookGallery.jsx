@@ -58,7 +58,7 @@ export function LookbookGallery({ onFilterByGender }) {
   return (
     <section className="w-full py-16 bg-[#05130d] border-b border-[#1b3d2b] relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div className="text-center max-w-2xl mx-auto mb-10">
           <span className="text-xs font-bold uppercase tracking-widest text-[#d4af37] flex items-center justify-center gap-1.5 animate-glow">
             <Camera className="w-3.5 h-3.5" /> High Society Runway & Owanbe Lookbook
@@ -109,7 +109,7 @@ export function LookbookGallery({ onFilterByGender }) {
 
       {/* Lightbox / Preview */}
       {selectedPhoto && (
-        <div 
+        <div
           className="fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex items-center justify-center p-4 animate-fadeIn"
           onClick={() => setSelectedPhoto(null)}
         >
